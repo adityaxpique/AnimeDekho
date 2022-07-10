@@ -11,9 +11,7 @@
 - Uses the Anilist API (GraphQL).
 
 - Simple to use UI built using Chakra UI.
-<!-- 
 
-## How it looks
 
-##### Just see it yourself - [Anima](https://anima-woad.vercel.app) -->
+## Hosted - [AnimeDekho](https://anime-dekho.vercel.app/)
 
