@@ -73,8 +73,8 @@ const AnimeInfo = ({
           fontFamily="semibold"
           textColor="white"
         >
-          {genres.map((genre) => {
-            return <p>{genre}</p>;
+          {genres.map((genre, index) => {
+            return <p key={index}>{genre}</p>;
           })}
         </Heading>
 
