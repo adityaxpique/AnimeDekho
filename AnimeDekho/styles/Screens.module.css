@@ -1,0 +1,85 @@
+.cardparent {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400 !important;
+  height: 350px;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+.subparentcard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 350px;
+}
+
+.coverImg {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.content {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.82)
+  );
+  position: absolute;
+  top: 80px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: 700;
+  justify-content: flex-end;
+  padding: 10px;
+  transition: all 0.2s linear;
+}
+.cardparent:hover .content {
+  top: 0;
+  opacity: 1;
+}
+.episodes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.episodes p {
+  margin-left: 10px;
+  font-weight: 500;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating p {
+  margin-left: 10px;
+  font-weight: 500;
+}
+.heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.season {
+  font-weight: 500;
+}
+.tablist {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.tab{
+  color: white !important;
+  outline: none;
+  border: none;
+  margin-right: 24px;
+  margin-left: 20px;
+  border-radius: 8px !important;
+}
+.tab p{
+  text-transform: uppercase;
+}
