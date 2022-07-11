@@ -83,3 +83,12 @@
 .tab p{
   text-transform: uppercase;
 }
+@media screen and (max-width: 450px) {
+  .tab{
+  margin-right: 4px;
+  margin-left: 2px;
+}
+  .tab p{
+  font-size: 14px;
+}
+}

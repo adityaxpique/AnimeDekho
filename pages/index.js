@@ -26,7 +26,7 @@ const Home = ({ trending, popular, topRated, favourites }) => {
       bgColor="blackAlpha.900"
     >
       <TrendingScreen data={trending} />
-      <Tabs isFitted variant="solid-rounded" colorScheme="green">
+      <Tabs variant="solid-rounded" colorScheme="green">
         <TabList className={styles.tablist}>
           <Tab
             _selected={{ color: "white", bg: "green.900" }}
